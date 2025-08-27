@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 20px;
+  background-color: #000; /* Black background */
+  color: #FFD700; /* Gold text */
+}
+
+header {
+  background-color: #FFD700; /* Gold header */
+  color: #000; /* Black text */
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+section {
+  margin-bottom: 20px;
+  border: 1px solid #FFD700;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+.dark-theme {
+  background-color: #000;
+  color: #FFD700;
+}
+
+.dark-theme header {
+  background-color: #000;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+}
+
+.dark-theme button {
+  background-color: #000;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+}
